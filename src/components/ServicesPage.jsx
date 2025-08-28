@@ -4,6 +4,8 @@ import { ArrowRight, Users, Target, TrendingUp, Briefcase, CheckCircle } from 'l
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 
+import WorkshopFacilitator from "../assets/IMG_20250724_103141.jpg";
+
 const ServicesPage = () => {
   const services = [
     {
@@ -63,8 +65,12 @@ const ServicesPage = () => {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-gray-50 to-white py-20 lg:py-32">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <section 
+        className="relative py-20 lg:py-32 bg-cover bg-center"
+        style={{ backgroundImage: `url(${WorkshopFacilitator})` }}
+      >
+        <div className="absolute inset-0 bg-black opacity-50"></div>
+        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
               Professional Coaching

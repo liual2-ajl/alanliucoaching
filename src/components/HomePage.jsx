@@ -4,6 +4,8 @@ import { ArrowRight, Users, Target, TrendingUp, Briefcase } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 
+import PaypalTalkHomepage from "../assets/PaypalTalkHomepage.jpg";
+
 const HomePage = () => {
   const services = [
     {
@@ -46,8 +48,12 @@ const HomePage = () => {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-gray-50 to-white py-20 lg:py-32">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <section 
+        className="relative py-20 lg:py-32 bg-cover bg-center"
+        style={{ backgroundImage: `url(${PaypalTalkHomepage})` }}
+      >
+        <div className="absolute inset-0 bg-black opacity-50"></div>
+        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h1 className="text-4xl md:text-6xl font-bold text-gray-900 mb-6">
               Your Journey to a 
@@ -97,7 +103,7 @@ const HomePage = () => {
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {services.map((service, index) => (
-              <Card key={index} className="border border-gray-200 hover:shadow-lg transition-all duration-300 hover:border-teal-200">
+              <Card key={index} className="border border-gray-200 hover:shadow-lg transition-all duration-300 hover:border-cobalt-200">
                 <CardContent className="p-8">
                   <div className="flex items-start space-x-4">
                     <div className="flex-shrink-0">
@@ -138,7 +144,7 @@ const HomePage = () => {
                   <blockquote className="text-gray-700 mb-6 leading-relaxed">
                     "{testimonial.quote}"
                   </blockquote>
-                  <cite className="text-teal-600 font-medium">
+                  <cite className="text-cobalt-600 font-medium">
                     — {testimonial.author}
                   </cite>
                 </CardContent>
@@ -149,18 +155,18 @@ const HomePage = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 bg-teal-600">
+      <section className="py-20 bg-cobalt-600">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
             Ready to Transform Your Leadership Journey?
           </h2>
-          <p className="text-xl text-teal-100 mb-8">
+          <p className="text-xl text-cobalt-100 mb-8">
             Take the first step towards unlocking your potential and achieving sustainable success.
           </p>
           <Button 
             asChild 
             size="lg" 
-            className="bg-white text-teal-600 hover:bg-gray-50 px-8 py-4 text-lg rounded-lg transition-all duration-200 hover:shadow-lg"
+            className="bg-white text-cobalt-600 hover:bg-gray-50 px-8 py-4 text-lg rounded-lg transition-all duration-200 hover:shadow-lg"
           >
             <Link to="/contact">
               Start Your Journey
