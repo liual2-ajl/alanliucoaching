@@ -45,19 +45,19 @@ const ContactPage = () => {
 
   const contactInfo = [
     {
-      icon: <Mail className="h-6 w-6 text-teal-600" />,
+      icon: <Mail className="h-6 w-6 text-cobalt-600" />,
       title: "Email",
       content: "alan@createtheark.com",
       link: "mailto:alan@createtheark.com"
     },
     {
-      icon: <Phone className="h-6 w-6 text-teal-600" />,
+      icon: <Phone className="h-6 w-6 text-cobalt-600" />,
       title: "Phone",
       content: "+65.9155.1741",
       link: "tel:+6591551741"
     },
     {
-      icon: <Phone className="h-6 w-6 text-teal-600" />,
+      icon: <Phone className="h-6 w-6 text-cobalt-600" />,
       title: "Alternative Phone",
       content: "+1.416.605.8725",
       link: "tel:+14166058725"
@@ -80,7 +80,7 @@ const ContactPage = () => {
           <div className="text-center">
             <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
               Let's Start Your
-              <span className="text-teal-600 block">Transformation Journey</span>
+              <span className="text-cobalt-600 block">Transformation Journey</span>
             </h1>
             <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
               Ready to unlock your potential? Get in touch to schedule a consultation and begin your path to professional growth and success.
@@ -174,7 +174,7 @@ const ContactPage = () => {
                             name="service"
                             value={formData.service}
                             onChange={handleInputChange}
-                            className="mt-1 w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-teal-500"
+                            className="mt-1 w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-cobalt-500 focus:border-cobalt-500"
                           >
                             <option value="">Select a service</option>
                             {services.map((service, index) => (
@@ -205,7 +205,7 @@ const ContactPage = () => {
                       <Button 
                         type="submit" 
                         size="lg" 
-                        className="w-full bg-teal-600 hover:bg-teal-700 text-white py-3 rounded-lg transition-colors duration-200"
+                        className="w-full bg-cobalt-600 hover:bg-cobalt-700 text-white py-3 rounded-lg transition-colors duration-200"
                       >
                         Send Message
                         <Send className="ml-2 h-5 w-5" />
@@ -241,7 +241,7 @@ const ContactPage = () => {
                           </h3>
                           <a 
                             href={info.link}
-                            className="text-teal-600 hover:text-teal-700 transition-colors duration-200"
+                            className="text-cobalt-600 hover:text-cobalt-700 transition-colors duration-200"
                           >
                             {info.content}
                           </a>

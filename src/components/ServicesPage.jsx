@@ -71,15 +71,13 @@ const ServicesPage = () => {
       >
         <div className="absolute inset-0 bg-black opacity-50"></div>
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center">
-            <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+          <div className="text-cente            <h1 className="text-4xl md:text-5xl font-bold text-white mb-6">
               Professional Coaching
-              <span className="text-cobalt-600 block">Services</span>
+              <span className="text-cobalt-300 block">Services</span>
             </h1>
-            <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
+            <p className="text-xl text-white mb-8 max-w-3xl mx-auto">
               Comprehensive coaching and training solutions designed to unlock your potential and drive sustainable success in your professional journey.
-            </p>
-            <Button 
+            </p>           <Button 
               asChild 
               size="lg" 
               className="bg-cobalt-600 hover:bg-cobalt-700 text-white px-8 py-4 text-lg rounded-lg transition-all duration-200 hover:shadow-lg"
@@ -108,7 +106,7 @@ const ServicesPage = () => {
                           <CardTitle className="text-2xl font-bold text-gray-900">
                             {service.title}
                           </CardTitle>
-                          <p className="text-cobalt-600 font-medium">
+                          <p className="text-cobalt-300 font-medium">
                             {service.subtitle}
                           </p>
                         </div>
@@ -120,7 +118,7 @@ const ServicesPage = () => {
                       </p>
                       <Button 
                         asChild 
-                        className="bg-teal-600 hover:bg-teal-700 text-white rounded-lg transition-colors duration-200"
+                        className="bg-cobalt-600 hover:bg-cobalt-700 text-white rounded-lg transition-colors duration-200"
                       >
                         <Link to="/contact">
                           Learn More
@@ -183,8 +181,8 @@ const ServicesPage = () => {
             
             <Card className="bg-white border-0 shadow-md hover:shadow-lg transition-shadow duration-300">
               <CardContent className="p-8 text-center">
-                <div className="w-16 h-16 bg-teal-100 rounded-full flex items-center justify-center mx-auto mb-6">
-                  <span className="text-2xl font-bold text-teal-600">2</span>
+                <div className="w-16 h-16 bg-cobalt-100 rounded-full flex items-center justify-center mx-auto mb-6">
+                  <span className="text-2xl font-bold text-cobalt-600">2</span>
                 </div>
                 <h3 className="text-xl font-semibold text-gray-900 mb-4">
                   Personalized Strategy
@@ -197,8 +195,8 @@ const ServicesPage = () => {
             
             <Card className="bg-white border-0 shadow-md hover:shadow-lg transition-shadow duration-300">
               <CardContent className="p-8 text-center">
-                <div className="w-16 h-16 bg-teal-100 rounded-full flex items-center justify-center mx-auto mb-6">
-                  <span className="text-2xl font-bold text-teal-600">3</span>
+                <div className="w-16 h-16 bg-cobalt-100 rounded-full flex items-center justify-center mx-auto mb-6">
+                  <span className="text-2xl font-bold text-cobalt-600">3</span>
                 </div>
                 <h3 className="text-xl font-semibold text-gray-900 mb-4">
                   Implementation & Growth

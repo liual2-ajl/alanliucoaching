@@ -135,19 +135,19 @@ const AboutPage = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 bg-teal-600">
+      <section className="py-20 bg-cobalt-600">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
             Ready to Begin Your Transformation?
           </h2>
-          <p className="text-xl text-teal-100 mb-8">
+          <p className="text-xl text-cobalt-100 mb-8">
             Let's work together to unlock your potential and achieve your leadership goals.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button 
               asChild 
               size="lg" 
-              className="bg-white text-teal-600 hover:bg-gray-50 px-8 py-4 text-lg rounded-lg transition-all duration-200 hover:shadow-lg"
+              className="bg-white text-cobalt-600 hover:bg-gray-50 px-8 py-4 text-lg rounded-lg transition-all duration-200 hover:shadow-lg"
             >
               <Link to="/contact">
                 Schedule a Consultation
@@ -158,7 +158,7 @@ const AboutPage = () => {
               asChild 
               variant="outline" 
               size="lg" 
-              className="border-white text-white hover:bg-white hover:text-teal-600 px-8 py-4 text-lg rounded-lg transition-all duration-200"
+              className="border-white text-white hover:bg-white hover:text-cobalt-600 px-8 py-4 text-lg rounded-lg transition-all duration-200"
             >
               <Link to="/services">View Services</Link>
             </Button>

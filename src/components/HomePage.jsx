@@ -55,14 +55,14 @@ const HomePage = () => {
         <div className="absolute inset-0 bg-black opacity-50"></div>
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
-            <h1 className="text-4xl md:text-6xl font-bold text-gray-900 mb-6">
+            <h1 className="text-4xl md:text-6xl font-bold text-white mb-6">
               Your Journey to a 
-              <span className="text-cobalt-600 block">Better Tomorrow</span>
+              <span className="text-cobalt-300 block">Better Tomorrow</span>
             </h1>
-            <h2 className="text-xl md:text-2xl text-gray-600 mb-8 max-w-3xl mx-auto">
+            <h2 className="text-xl md:text-2xl text-white mb-8 max-w-3xl mx-auto">
               From Transition to Transformation
             </h2>
-            <p className="text-lg text-gray-700 mb-12 max-w-4xl mx-auto leading-relaxed">
+            <p className="text-lg text-white mb-12 max-w-4xl mx-auto leading-relaxed">
               Each of us have a story, a collection of experiences and challenges at different points of time which have helped influenced our minds, bodies and hearts. I want to help others manage their transitions in the best way possible. I enjoy partnering with people and turn transitions into opportunities for transformative growth.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
