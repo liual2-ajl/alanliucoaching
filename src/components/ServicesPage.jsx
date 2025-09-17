@@ -71,7 +71,7 @@ const ServicesPage = () => {
       >
         <div className="absolute inset-0 bg-black opacity-50"></div>
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-cente            <h1 className="text-4xl md:text-5xl font-bold text-white mb-6">
+          <div className="text-center">            <h1 className="text-4xl md:text-5xl font-bold text-white mb-6">
               Professional Coaching
               <span className="text-cobalt-300 block">Services</span>
             </h1>
